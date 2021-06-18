@@ -1,0 +1,13 @@
+#!/bin/zsh
+# testing variables
+days=10
+guest="Suraj"
+echo "$guest checked in $days days ago"
+days=5
+guest="Michael"
+echo "$guest checked in $days days ago"
+
+# assigning a variable value to another variable
+value1=10
+value2=$value1
+echo "The resulting value is $value2"
